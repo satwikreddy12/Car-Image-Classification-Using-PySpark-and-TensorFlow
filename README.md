@@ -1,4 +1,4 @@
-# Car-Image-Classification-Using-PySpark-and-TensorFlow
+# Car-Image-Classification-Using-PySpark-and-TensorFlow(Big Data)
 This contains a project that performs image classification on a dataset of car images categorized by manufacturer. The project uses PySpark for scalable data processing and TensorFlow/Keras for building a deep learning model to classify the car images.
 
 ## Table of Contents <br/>
@@ -21,7 +21,10 @@ Data Loading: Images are loaded from a local dataset, and the file paths are sto
 Data Splitting: The dataset is split into three sets: 70% for training, 15% for validation, and 15% for testing.
 Feature Extraction: Image features are extracted using TensorFlow’s load_img and img_to_array functions.
 Model Training: A neural network model is built using TensorFlow/Keras to classify the car images into different manufacturer categories.
-Evaluation: The trained model is evaluated using the validation and test sets.
+Evaluation: The trained model is evaluated using the validation and test sets.<br/>
+
+![image](https://github.com/user-attachments/assets/2c564a1b-377e-4c14-b290-2cafbb98674f)<br/>
+
 
 ### Features<br/>
 Scalable data handling using PySpark.
@@ -35,6 +38,12 @@ PySpark<br/>
 TensorFlow/Keras<br/>
 OpenCV<br/>
 Jupyter Notebook<br/>
+
+![image](https://github.com/user-attachments/assets/abda2c55-bd60-47b8-8f0a-83dee4c1838a)<br/>
+
+![image](https://github.com/user-attachments/assets/f7313977-fa58-405d-ba06-481e01b83ddf)<br/>
+
+
 
 ### Future Work<br/>
 Improve the model by experimenting with more advanced architectures like CNNs or ResNet.
